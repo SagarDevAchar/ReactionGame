@@ -1,6 +1,8 @@
 # ReactionGame
 A Small ***C++*** and ***OpenCV 4*** based Game to test the Reaction Time of Players
 
+The recent (and the only) version of Reaction game is 1.1. Click [here](https://github.com/SagarDevAchar/ReactionGame/archive/refs/tags/v1.1.zip) to download the release and extract to play!
+
 ## Navigating through the Game
 The Game Supports **only** Keyboard Input. Any part of the game will **not** respond to the mouse pointer / click. Follow the Instruction as said in the game to navigate through
 
@@ -43,7 +45,18 @@ A PC / Laptop running Windows. Nothing else **(:-P)**
 ## Files in Repository
 - *LICENSE :* Creative Commons Zero v1.0 Universal License for ReactionGame
 - *README.md :* Here you are! **(:-P)**
-- *ReactionGame.cpp :* C++ Source Code for ReactionGame
+- *ReactionGame.exe :* The actual game executable
+- *libXXXX.dll :* Dynamic Link Libraries required to run ReactionGame
+- */src/main.cpp :* C++ Source Code for ReactionGame
+- */res :* Audio Resource Directory for ReactionGame. Contains WAV files used in Runtime
+
+## Disclaimer
+
+To ensure a bug-free game experience, do **NOT** move the files inside the **ReactionGame-v1.x** folder. Please move the whole folder if required.
+
+Windows Defender might block the running of **ReactionGame.exe** as it fails to recognize the origin of the Executable (I don't know how to get EXEs signed). Click on **More Info** and **Run anyway** to play the game. To ensure that there is no Virus / Malware, download ReactionGame from this Repository only
+
+Any Bugs / Issues / Features Requests can be posted in the **[Issues Tab](https://github.com/SagarDevAchar/ReactionGame/issues/new/choose)** of this Repository
 
 ## Well, I guess that's it!
 This "game" isn't much...
